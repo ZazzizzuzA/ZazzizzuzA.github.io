@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="block__head">
+        <img src="assets/img/logo.jpg" class="block__head_logo">
+        <h1>Весь проэкт</h1>
+        <!-- <div id="app">
+            <p>{{message}}</p>
+            <input type="text" v-model="message">
+        </div> -->
+    </header>
+    <div class="block__sidebar">
+        <div class="block__sidebar_profile">
+            <img src="./assets/img/1.jpg" alt="photo">
+            <h4>Pylypenko Mykhailo</h4>
+            <h5>Frontend Developer</h5>
+            <div class="block__sidebar_profile-icons icons-stats">
+                <div><i class="fa fa-user-circle-o" aria-hidden="true"></i><br/>1234</div>
+                <div><i class="fa fa-paper-plane" aria-hidden="true"></i><br/>432</div>
+                <div><i class="fa fa-eye" aria-hidden="true"></i><br/>2344</div>
+            </div>
+        </div>
+        <div class="block__sidebar_menu" id="applications">
+            <!-- <button>Dashboard</button>
+            <button>UI elements</button>
+            <button>Sample Pages</button>
+            <button>Messages</button>
+            <button>Forms</button>
+            <button>Grid Layout</button>
+            <button>Tables</button>
+            <button>Statistics</button>
+            <button>Support</button> -->
+        </div>
+    </div>
+    <div class="block__main">
+        <!-- <div class="block__main_clicker" id="clicker">
+            <input type="text" id="clickerInput" v-model="counter">
+            <button id="clickerButton" @click="onClick">{{commande}}</button>
+        </div> -->
+        <div class="block__main_title">
+            <h1><i class="fa fa-home" aria-hidden="true"></i> Dashboard</h1>
+            <div>Today</div>
+            <div>Yesterday</div>
+            <div><i class="fa fa-calendar-check-o" aria-hidden="true"></i> February 26, 2018</div>
+        </div>
+        <div id="applicationsView">
+        </div>
+        <!--         <div id="toDoList">
+            <input type="text" v-model="todo" @keyup.13="addDeal">
+            <button @click="addDeal">{{messageButton}}</button>
+            <h4>{{messageDeal}}</h4>
+            <ul>
+                <li v-for="deal in deals" :class="{'deal-done': deal.status}" v-if="deal.show"><input type="checkbox" v-model="deal.mark" @click="deal.status = !deal.status">{{deal.text}}<button @click="deal.show = !deal.show"><i class="fa fa-times" aria-hidden="true"></i></button></li>
+            </ul>
+        </div> -->
+
+        <!-- <div class="block__main_content" id="content"></div> -->
+
+    </div>
+
+<script type="text/javascript" src="main.js"></script></body>
+
+</html>

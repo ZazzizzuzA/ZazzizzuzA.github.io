@@ -10,6 +10,7 @@
 	<div style="padding: 30px 15px; box-sizing: border-box;">
 		<a style="border-radius: 3px; padding: 20px 25px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/DreamJob/">О работе моей мечты</a>
 		<a style="border-radius: 3px; padding: 20px 25px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/wg/">Тестовый проект</a>
+		<a style="border-radius: 3px; padding: 20px 25px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/shopOrder/">Заказ (тест)</a>
 	</div>
 </div>
 

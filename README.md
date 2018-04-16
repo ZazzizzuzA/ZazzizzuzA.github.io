@@ -23,40 +23,7 @@
 
 ## Как начать просмотр?
 
-Нажмите на, представленные выше, ссылки.
-
-## Используемые компоненты:
-
-1. npm;
-2. Webpack:
-	1. html-webpack-plugin;
-	2. webpack-cli;
-	3. sw-precache-webpack-plugin;
-3. Loaders: 
-	1. style-loader;
-	2. sass-loader;
-	3. file-loader;
-	4. url-loader;
-	5. eslint-loader;
-4. Others: 
-	1. popper.js;
-	2. owl.carousel;
-	3. node-sass;
-	4. karma-jasmine;
-	5. karma-chrome-launcher;
-	6. karma;
-	7. jquery;
-	8. jasmine-core;
-	9. isotope-layout;
-	10. http-server;
-	11. font-awesome;
-	12. eslint;
-	13. chart.js;
-	14. charming;
-	15. bootstrap;
-	16. animejs;
-	17. vivus;
-	18. Vue.js;
+Пройдите по, представленным выше, ссылкам.
 
 [npm]: https://img.shields.io/npm/v/copy-webpack-plugin.svg
 [npm-url]: https://npmjs.com/package/copy-webpack-plugin

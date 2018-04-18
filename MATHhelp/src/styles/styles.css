@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*Шрифты можно импортировать еще через тег линк, обозначив его хеде основного файла;
+напрямую, ссылаясь на шрифты, которые есть на компьютере, но я этого не делаю, так как 
+удобнее сразу использовать ресурс Гугл Фонтс */
+
+* {
+    margin: 0px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #f6f6f8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    min-height: 900px;
+    background-color: #f6f6f8;
+}
+
+.rightCont {
+    margin: 0px;
+    width: 55%;
+    min-height: 600px;
+}
+
+.leftCont {
+    margin: 0px;
+    width: 42%;
+    min-height: 600px;
+}
+
+.mainHead {
+    width: 100%;
+    height: auto;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(63, 67, 79);
+    justify-content: space-between;
+}
+
+.headerLogin {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 60px;
+}
+
+.logo {
+    display: block;
+    flex: 1 0 auto;
+    padding-top: 3px;
+}
+
+.logo img {
+    vertical-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-left: 1.5em;
+    display: inline;
+    list-style: none;
+    flex-grow: 1;
+}
+
+.menu ul li a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu ul li a:hover {
+    color: rgb(161, 161, 161);
+}
+
+.login {
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.courses {
+    float: left;
+    font-size: 26px;
+    width: 200px;
+    color: rgb(180, 180, 180);
+}
+
+.leftLogCont {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0em;
+    height: 60px;
+    width: calc(100% - 245px);
+}
+
+.hideMenu a {
+    opacity: 0.5;
+}
+
+.searchbar {
+    width: calc(100% - 214px);
+    height: auto;
+    margin-left: 20px;
+}
+
+.searchbar input {
+    outline: none;
+    border: none;
+    opacity: 0.5;
+    width: calc(100% - 40px);
+    font-size: 20px;
+    height: 35px;
+}
+
+.searchbar img {
+    width: 40px;
+    height: 35px;
+    vertical-align: bottom;
+}
+
+.rightLogCont {
+    float: right;
+    border-right: 0.5px solid rgba(180, 180, 180, 0.5);
+    border-left: 0.5px solid rgba(180, 180, 180, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em 0 1em;
+    margin-right: 0em;
+    height: 60px;
+}
+
+.photo {
+    border-radius: 3px;
+    background-image: url(../../assets/images/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 45px;
+    margin: 0 1em 0 0;
+}
+
+.account {
+    display: flex;
+    font-size: 24px;
+}
+
+.account p {
+    opacity: 0.5;
+}
+
+.account img {
+    margin-top: 5px;
+}
+
+.task {
+    width: 100%;
+    height: 400px;
+    background-color: #2f353f;
+    border-radius: 5px;
+    position: relative;
+    padding-top: 40px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 45px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+.acounter {
+    min-height: 130px;
+    margin-top: 60px;
+    width: 1200px;
+    text-align: left;
+}
+
+.page {
+    border: 1px solid #d2d7dd;
+    height: 30px;
+    width: 45px;
+    resize: none;
+    border-radius: 5px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 27px;
+    padding-left: 5px;
+}
+
+.allPages {
+    line-height: 35px;
+    font-size: 27px;
+    word-spacing: 10px;
+    float: left;
+}
+
+.forArea {
+    margin: 0px;
+    width: 45px;
+    float: left;
+}
+
+.leftArrow,
+.rightArrow {
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/right-arrow.png");
+    background-size: 60%;
+    background-position: center;
+    opacity: 0.6;
+    border: 1px solid #d2d7dd;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    float: left;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+    background-color: rgb(46, 204, 113);
+}
+
+.leftArrow {
+    transform: rotate(180deg);
+}
+
+.navigation {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: 0.2px solid #d2d7dd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.navigationNum {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border-top: 1px solid #d2d7dd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navNumbers {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgb(165, 166, 169);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    text-align: center;
+    line-height: 35px;
+}
+
+.navNumbers:hover {
+    background-color: rgba(8, 148, 221, 1);
+    opacity: 1;
+    color: white;
+}
+
+.help {
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(165, 166, 169);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.help:hover {
+    color: #0894dd;
+    border-color: #0894dd;
+}
+
+.helpforhelp {
+    width: 70px;
+    height: 35px;
+}
+
+.navButtons {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    height: 35px;
+    min-width: 80px;
+    opacity: 0.6;
+    border-radius: 25px;
+    padding-right: 3px;
+    padding-left: 3px;
+    line-height: 35px;
+    color: rgba(168, 189, 191, 0.9);
+}
+
+.navButtons:hover {
+    background-color: rgba(8, 148, 221, 1);
+    opacity: 1;
+    color: white;
+}
+
+.guide {
+    height: 50px;
+    width: 100%;
+    border-bottom: 0.4px solid #d2d7dd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 16px;
+    position: relative;
+    text-align: left;
+}
+
+h4 {
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: rgb(50, 57, 77);
+}
+
+.lessons {
+    height: 50px;
+    width: 100%;
+    border-bottom: 0.4px solid #d2d7dd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.instruction {
+    min-height: 180px;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #d2d7dd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(188, 189, 170);
+    padding-bottom: 25px;
+}
+
+.pInstr,
+.pInstr2,
+.pInstr3 {
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.pInstr3 a {
+    color: #0894dd;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.pInstr {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.leftCont .instruction .pInstr {
+    line-height: 40px;
+}
+
+.fa-arrows-alt {
+    color: #0894dd;
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+
+/*Правый контейнер*/
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+}
+
+.fraction {
+    width: 160px;
+    height: auto;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    margin-top: 100px;
+}
+
+.sevenFr {
+    width: 25px;
+    height: auto;
+    line-height: 45px;
+    float: left;
+}
+
+.oneThree {
+    width: 25px;
+    height: auto;
+    line-height: 45px;
+    float: right;
+}
+
+.fr {
+    width: 25px;
+    line-height: 45px;
+    border-bottom: 1px solid white;
+}
+
+.minus {
+    position: absolute;
+    left: 47%;
+    top: 45px;
+    width: 15px;
+    line-height: 45px;
+    border-bottom: 2px solid white;
+}

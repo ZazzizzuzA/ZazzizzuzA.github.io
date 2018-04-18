@@ -37,8 +37,8 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["index.html","34a92eb3b2c76a816344e726bdfd0050"],["main.js","dfccdb4592281be553d64edc979d55e6"],["service-worker.js","3cd6b326ff49989a4bf5ce36389c1ae7"]];
-var cacheName = 'sw-precache-v3-me-watch-0.16440399491090085-' + (self.registration ? self.registration.scope : '');
+var precacheConfig = [["index.html","d9433bcb4f78d0f5752ae0609c2594b2"],["main.js","7f493b4476703b30d15cf60a20cce711"],["service-worker.js","e9fa7e8a3aba34807af5f177c95b3622"]];
+var cacheName = 'sw-precache-v3-me-watch-0.012009838103519854-' + (self.registration ? self.registration.scope : '');
 
 
 var ignoreUrlParametersMatching = [/^utm_/];

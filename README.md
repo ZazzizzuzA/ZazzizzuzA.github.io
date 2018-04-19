@@ -4,7 +4,11 @@
 [![test][test]][test-url]
 [![chat][chat]][chat-url]
 
-
+<style>
+	a{
+	margin: 10px 0px 0px 10px;
+	}
+</style>
 <div style="min-height: 500px; width: 100%; background: rgb(247, 217, 136); display: flex; flex-direction: column; align-items: center;">
 	<h1 align="center">Проекты.</h1>
 	<div style=" display: flex; flex-flow: row wrap; justify-content: space-between; padding: 20px 20px; box-sizing: border-box;">

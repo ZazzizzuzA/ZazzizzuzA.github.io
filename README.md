@@ -12,6 +12,7 @@
 		<a style="margin: 10px 0px 0px 10px;border-radius: 3px; padding: 15px 20px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/wg/">Тестовый(29.03.18)</a>
 		<a style="margin: 10px 0px 0px 10px;border-radius: 3px; padding: 15px 20px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/shopOrder/">Заказ (тест, 05.04.18 )</a>
 		<a style="margin: 10px 0px 0px 10px;border-radius: 3px; padding: 15px 20px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/slider/">Slider (test,<br> 14.04.18, responsive: none)</a>
+		<a style="margin: 10px 0px 0px 10px;border-radius: 3px; padding: 15px 20px; background: rgb(92, 249, 171); text-decoration: none; border: 1px solid rgba(190,200,190,0.7); box-shadow: 2px 3px 5px rgb(20,20,20); color: #030147" href="https://zazzizzuza.github.io/Moto/">Motorola (test,<br> 13.07.18)</a>
 	</div>
 </div>
 
